@@ -47,7 +47,7 @@ curl  -Ik https://localhost:9100/metrics
     ca_file: node_exporter.crt
   basic_auth:
     username: prometheus
-    password: prometheuspassword  
+    password: 123456  
   static_configs:
   - targets: ['localhost:9100']
   
