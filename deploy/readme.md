@@ -35,7 +35,7 @@ tls_server_config:
   key_file: node_exporter.key
 basic_auth_users:
   # 当前设置的用户名为 prometheus ， 可以设置多个
-  prometheus: $2y$12$WLw2sYa.NY0NhTn0EvpefLHeuG.l7TAH9Wzd9HlK1H8ZuDo9EAGKK0i
+  prometheus: rKr1WNh2UBQVE
 
 ./node_exporter --web.config=config.yaml
 
